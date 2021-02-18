@@ -1,0 +1,68 @@
+/* ====================================================
+                  DEFAULT VALUES
+                  
+                  Font family           :Roboto Condensed
+                  Greenish Blue         : #34c6d3    (Buttons, Icons, Links, Lines & Background)
+                  Steel gray            : #41464b    (Heading)
+                  Blue bayou            : #64707b    (Paragraphs)
+                  While                 : #fff       
+                  Black                 : #000
+
+=====================================================*/
+
+/* General CSS */
+html, body {
+  height: 100%;
+}
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h3 {
+  text-transform: uppercase;
+}
+/* Home */
+.home {
+  height: 100%;
+}
+.home-cover {
+  height: 100%;
+  background-image: url(../img/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home-content-box {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.home-heading h3 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  margin: 20px 0 20px 0;
+}
+
+/* Btn generic */
+.btn-general {
+  border-width: 2px;
+  border-radius: 0px;
+  padding: 12px 26px 12px 26px;
+  font-size: 16px;
+  font-weight: 400px;
+  text-transform: uppercase;
+}
+.btn-while {
+  border-color: #fff;
+  color: #fff;
+}
+.btn-while:hover,
+.btn-while:focus {
+  background-color: #fff;
+  color: #41464b;
+}
